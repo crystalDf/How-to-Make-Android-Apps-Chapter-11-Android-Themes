@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Android API 14+ -->
+
+        <item name="android:windowBackground">@color/background_color</item>
+
+        <item name="android:editTextColor">#ffff00ff</item>
+        <item name="android:textColorPrimary">#ffff00ff</item>
+        <item name="android:textColorSecondary">#ffff00ff</item>
+        <item name="android:textColorTertiary">#ffff00ff</item>
+        <item name="android:textColorPrimaryInverse">#ffff00ff</item>
+        <item name="android:textColorSecondaryInverse">#ffff00ff</item>
+        <item name="android:textColorTertiaryInverse">#ffff00ff</item>
+
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="TextView1">
+
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+    
+    <style name="EditText" parent="TextView1">
+        
+        <item name="android:textStyle">normal</item>
+        
+    </style>
+
+    <style name="TextView1.TextView2">
+
+        <item name="android:padding">30dp</item>
+
+    </style>
+
+    <style name="TextView1.TextView2.TextView3">
+
+        <item name="android:layout_marginTop">15dp</item>
+
+    </style>
+
+    <style name="TextView" parent="@android:style/Widget.TextView">
+
+        <item name="android:textSize">55sp</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+</resources>

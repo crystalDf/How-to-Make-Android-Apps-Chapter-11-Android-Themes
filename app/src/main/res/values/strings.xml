@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Android Themes</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <color name="background_color">#ff00ffff</color>
+
+</resources>
